@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fany Morales | Diseñadora Gráfica</title>
+    <!--Metadatos Personalizados-->
+    <meta name="author" content="Stephanie Morales">
+    <meta name="description" content="Portafolio de Diseño Gráfico">
+    <meta name="keywords" content="Ilustración, Página WEB, CSS, Design, Graphic Design, etc.">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./statics/media/logo.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Iconos de Bootsrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!--Link to style CSS-->
+    <link href="./statics/styles/style1.css" rel="stylesheet">
+    <link href="./libs/bootstrap/Boostraoap.min.css.css" rel="stylesheet">
+
+    <!--Fuentes Google Fonts-->
+
+</head>
+<body class="bg-black">
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-md navbar-light navbar-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img 
+                src="./statics/media/logo.svg" 
+                width="50"
+                alt="MOicon">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-content-center">
+                <li class="nav-item">
+                    <a id="sobreMi" class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a id="sobreMi" class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contactos</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    </nav>
+    <!--Sección Hero (principal)-->
+    <section class="hero align-item-stretch">
+        <!--Parte superior de la sección Hero-->
+        <div class="hero-principal">
+            <img id="yo" class="hero-imagen-perfil rounded-circle" 
+            src="./statics/media/img/fanyMuseo.JPG" 
+            
+            alt="Foto personal"> <!--Imágen principal-->
+            <h1 class="heroTit">Hola soy Fany Morales</h1> 
+            <h2 class="heroTit2">Diseñadora Gráfica</h2> 
+            <h2 class="heroTit2">Visual Artist</h2>
+            <h2 class="heroTit2">Full Stack Developmen Senior</h2> 
+            
+        </div>
+        <!--Parte inferior de la sección Hero-->
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid"  src="./statics/media/img/footer1.jpg" alt="Imágenes muestra">
+        </div>
+    </section>
+    <!--Sección About me-->
+        <section id="sobre-mi" class="sobre-mi seccion-oscura"> 
+        <div id="conoceSpace" class="row">
+            <div id="ocultar2" class="contenedor col-3 align-item-stretch"> 
+                
+            </div>
+            <div class="contenedor col-12 align-item-stretch">
+                <h2 id="conoceF">Conoce a Fany MO</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="ocultar" class="col-sm-4 col-md-4  col-lg-4 col-xxl-4 align-item-stretch">
+                <img id="aboutMeImg" src="./statics/media/img/museoMo.jpeg" alt="aboutMe">
+            </div >
+            <div class="col-sm-8 col-md-8  col-lg-8 col-xxl-8 align-item-stretch">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-sm-6 col-xxl-3 align-item-stretch">
+                        <img id="museo1" class="aboutMeImgRight" 
+                            src="./statics/media/img/frasco.JPG">
+                    </div>
+                    <div class="col-12  col-sm-6 col-md-6 col-xxl-9 align-item-stretch">
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Como diseñadora creo en el compromiso de diseñar con responsabilidad social porque el Diseño siempre tiene algo que transmitir y me encanta 
+                            la idea de que el diseño pueda actuar como mediador entre los conceptos intangibles que puedan pasar por nuestras mentes 
+                            y el entorno fisico-visible.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-sm-6  col-xxl-3 align-item-stretch">
+                        
+                        <img id="museo1" class="aboutMeImgRight" 
+                            src="./statics/media/img/folleto.jpeg">
+                    </div>
+                    
+                    <div class="col-12  col-sm-6 col-md-8 col-xxl-9 align-item-stretch">
+                        <h3 class="subCat">
+                            Formación
+                        </h3>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Curso de Programación Web
+                        </p>
+                        <p id="conoceTextSub" class="seccion-texto parrafo-about">
+                            Escuela Nacional Preparatoria No.6 "Antonio Caso"
+                        </p>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Diseño de la Comunicación Gráfica
+                        </p>
+                        <p id="conoceTextSub" class="seccion-texto parrafo-about">
+                            Universidad Autónoma de México-Unidad Azcapotzalco
+                        </p>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Inglés: Intermedio (B1)
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12  col-sm-6 col-md-4 col-xxl-3 align-item-stretch">
+                        <img id="museo1" class="aboutMeImgRight" 
+                            src="./statics/media/img/dragonzitos.jpg">
+                    </div>
+                    <div class="col-12  col-sm-6 col-md-8 col-xxl-9">
+                        <h3 class="subCat">
+                            Intereses
+                        </h3>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Illustración Digital
+                        </p>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Volleyball & Running
+                        </p>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Museos
+                        </p>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Conciertos
+                        </p>
+                        <p id="conoceText" class="seccion-texto parrafo-about">
+                            Aprender nuevos idiomas
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+
+        <!--Sección de Experiencia-->
+        <section class="experiencia seccion-clara">
+            <div class="contenedor col-12 align-item-stretch">
+                <h2 id="skills">Skills</h2>
+            </div>
+
+            <div class="container text-center">
+
+            <div class="row">
+                <div class="columna col-12 col-md-6">
+                    <i class="bi bi-pc-display"></i>
+                    <p class="experiencia-titulo">Tech Stack</p>
+                    <p>Desarrollo de proyectos web</p>
+                    <p>
+                        Desarrollo de aplicaciones web dinámicas
+                    </p>
+                    <p>
+                        Desarrollo de interfaces web interactivas
+                    </p>
+                    
+                    <!--Badges-->
+                    <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-light">HTML5</span>
+                    <span class="badge rounded-pill text-bg-light">CSS3</span>
+                    <span class="badge rounded-pill text-bg-light">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-light">Bootstrap 5</span>
+                    <span class="badge rounded-pill text-bg-light">Git</span>
+                    <span class="badge rounded-pill text-bg-light">VS Code</span>
+                    <span class="badge rounded-pill text-bg-light">Figma</span>
+                    <span class="badge rounded-pill text-bg-light">C++</span>
+                    <span class="badge rounded-pill text-bg-light">MySQL</span>
+                    <span class="badge rounded-pill text-bg-light">PHP</span>
+                    <span class="badge rounded-pill text-bg-light">Python</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-6">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Creative Design Suite</p>
+                    <p>
+                        Dominio de herramientas de vanguardia para la creación 
+                        de sistemas visuales, desde la 
+                        composición editorial técnica y el tratamiento de imagen, hasta el prototipado de interfaces digitales de alta fidelidad.
+                    </p>
+                    <!--Badges-->
+                    <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-light">Adobe InDesign</span>
+                    
+                    <span class="badge rounded-pill text-bg-light">Adobe Photoshop</span>
+                    <span class="badge rounded-pill text-bg-light">Adobe Illustrator</span>
+                    <span class="badge rounded-pill text-bg-light">Adobe Lightroom</span>
+                    <span class="badge rounded-pill text-bg-light">Adobe After Effects</span>
+                    <span class="badge rounded-pill text-bg-light">Adobe Media Encoder</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Columna Diseño Gráfico -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-postage-heart"></i>
+                    <p class="experiencia-titulo">Diseño Gráfico</p>
+                    <p>
+                        Ultimamente me he enfocado en el DTP y la producción impresa. Comparto la opnión de que 
+                        los objetos impresos nunca van a desaparecer, actualmente en un mundo saturado de información digital efímera y de baja calidad, 
+                        el objeto impreso adquiere un nuevo valor: la autoridad. El impreso se puede convertir un objeto de experiencia, permanencia, colección y herencia.
+                    </p>
+                    <!--Badges-->
+                    <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-light">Cartel</span>
+                    <span class="badge rounded-pill text-bg-light">Gestión de Color</span>
+                    <span class="badge rounded-pill text-bg-light">DTP</span>
+                    <span class="badge rounded-pill text-bg-light">Diseño Editorial</span>
+                    <span class="badge rounded-pill text-bg-light">Packaging</span>
+                    </div>
+                </div>
+                <!-- Artículos -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-camera"></i>
+                    <p class="experiencia-titulo">Fotografía</p>
+                    <p>
+                        Cuento con una visión técnica y creativa para la captura de imagen, enfocada en la composición y el uso estratégico de la iluminación. 
+                        Tengo experiencia en el flujo de trabajo digital, desde la toma fotográfica hasta la edición avanzada y corrección de color para proyectos editoriales. 
+                        Mi enfoque combina la sensibilidad artística con un aprendizaje constante para lograr resultados visuales de alto impacto.
+                    </p>
+                    <!--Badges-->
+                    <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-light">Composición Visual</span>
+                    <span class="badge rounded-pill text-bg-light">Edición</span>
+                    <span class="badge rounded-pill text-bg-light">Iluminación</span>
+                    <span class="badge rounded-pill text-bg-light">Dirección de Arte Fotográfica</span>
+                    </div>
+                </div>
+                <!-- Estudios -->
+                    <div class="columna col-12 col-md-4">
+                    <i class="bi bi-easel2"></i>
+                    <p class="experiencia-titulo">Arte</p>
+                    <p>
+                        Integro el dibujo y la ilustración como herramientas fundamentales de mi proceso creativo, ayudandome a conceptualizar mis ideas con personalidad. 
+                        Esta base artística nutre mis proyectos con un estilo visual auténtico, 
+                        equilibrando la expresividad del trazo manual y la precisión de la composición digital. 
+                        Mi enfoque combina la sensibilidad del arte con la funcionalidad del diseño para crear piezas con una narrativa visual potente.
+                    </p>
+                    <!--Badges-->
+                    <div class="badges-contenedor">
+                    <span class="badge rounded-pill text-bg-light">Ilustración</span>
+                    <span class="badge rounded-pill text-bg-light">Conceptualización Visual</span>
+                    <span class="badge rounded-pill text-bg-light">Narrativa Visual</span>
+                    </div>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <!--Proyectos-->
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 id="proT" class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+            <h3 id="proS" calss="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente...¡interactua!</h3>
+            <!--Galería de proyectos-->
+            <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!--Proyecto 1-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <!---<img src="./statics/media/img/dragonzitos.jpg" alt="Proyecto 1">-->
+                    <iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" class="fp-iframe" 
+                    src="https://heyzine.com/flip-book/8d89cb0d17.html" style="border: 1px solid lightgray; width: 100%; height: 400px;"></iframe>
+                    <div class="overlay">
+                    <p>PULSO ESTELAR</p>
+                    <div class="iconos-contenedor">
+                        <a href="https://heyzine.com/flip-book/8d89cb0d17.html" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i></a>
+                        <!--<a href="https://heyzine.com/flip-book/8d89cb0d17.html" target="_blank" rel="noopener noreferrer">
+                        </a><i class="bi bi-laptop"></i>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                        
+                        </a>-->
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!--Proyecto 3-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <!--<img src="imagenes/proyecto3.png" alt="Proyecto 3">-->
+                    <iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" 
+                    class="fp-iframe" src="https://heyzine.com/flip-book/943afaab75.html" style="border: 1px solid lightgray; width: 100%; height: 400px;"></iframe>
+                    <div class="overlay">
+                    <p>KOKITA EN BOLSA</p>
+                    <div class="iconos-contenedor">
+                        <a href="https://heyzine.com/flip-book/943afaab75.html" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        </a>
+                        <!--<a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                        </a>-->
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!--Proyecto 6-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <iframe allowfullscreen="allowfullscreen" allow="clipboard-write" scrolling="no" 
+                    class="fp-iframe" src="https://heyzine.com/flip-book/dfca0889c6.html" 
+                    style="border: 1px solid lightgray; width: 100%; height: 400px;"></iframe>
+                    <div class="overlay">
+                    <p>EL HOBBIT SPECIAL VERSION BOOK</p>
+                    <div class="iconos-contenedor">
+                        <a href="https://heyzine.com/flip-book/dfca0889c6.html" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--Proyecto 6-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./statics/media/img/TENNIS2-01.jpg"
+                    style="width: 100%; height: 550px;" alt="Proyecto 6">
+                    <div class="overlay">
+                    <p>MX OPEN CITY</p>
+                    <div class="iconos-contenedor">
+                        <a href="./statics/media/img/TENNIS2-01.jpg" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        </a>
+                        <a href="https://www.mxcityopen.com.mx/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--Proyecto 6-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./statics/media/img/QUET2-01.jpg"
+                    style="width: 100%; height: 550px;" alt="Proyecto 6">
+                    <div class="overlay">
+                    <p>IMAGES OF MEXICO</p>
+                    <div class="iconos-contenedor">
+                        <a href="./statics/media/img/TENNIS2-01.jpg" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        </a>
+                        
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--Proyecto 6-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./statics/media/img/CARTEL-DUDH.jpg"
+                    style="width: 100%; height: 550px;" alt="Proyecto 6">
+                    <div class="overlay">
+                    <p>MUNICIPIO DE TULTITLAN</p>
+                    <div class="iconos-contenedor">
+                        <a href="./statics/media/img/CARTEL-DUDH.jpg" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        </a>
+                        
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--Proyecto 4-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <iframe allowfullscreen="allowfullscreen" allow="clipboard-write" 
+                    scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/f626301a24.html" 
+                    style="border: 1px solid lightgray; width: 100%; height: 309px;"></iframe>
+                    <div class="overlay">
+                    <p>HONOR TALENTS</p>
+                    <div class="iconos-contenedor">
+                        <a href="https://heyzine.com/flip-book/f626301a24.html" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        </a>
+                        
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--Proyecto 4-->  
+                <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <iframe width="600px" height="294px" allowFullScreen="true" allow="accelerometer; 
+                    magnetometer; gyroscope; xr-spatial-tracking" style="display:block; margin:20px auto; border:0 none;
+                    max-width:880px;border-radius:8px; box-shadow: 0 1px 1px rgba(0,0,0,0.11),0 2px 2px 
+                    rgba(0,0,0,0.11),0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11);" src="https://panoraven.com/es/embed/8IVrXhyVrI"></iframe>
+                    <div class="overlay">
+                    <p>IMAGES OF MEXICO 360° VERSION</p>
+                    <div class="iconos-contenedor">
+                        <a href="https://panoraven.com/es/embed/8IVrXhyVrI" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-zoom-in"></i>
+                        </a>
+                        
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!--Botón ver más proyectos-->
+            <a href="https://www.instagram.com/yosoymo?igsh=MTc2NHlzbGtsb2F1eg==" target="_blank" rel="noopener noreferrer">
+            <button id="masmas" type="button" class="btn">
+                <p id="masTex">Más proyectos</p> 
+                
+            </button>
+            </a>
+        </section>  
+        <!--Artículos-->
+        <section class="articulos justify-content-start">
+            <h2 class="seccion-titulo">Artículos</h2>
+            <div class="card oscura">
+            <div class="card-header">
+                Más recientes
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://www.billboard.com/pro/why-k-pop-fans-still-buy-cds-even-when-they-cant-play-them/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item"> 
+                    ¿Por qué los fans del K-Pop siguen comprando CDs (aunque no puedan reproducirlos)?
+                </li>
+                </a>
+                <a href="https://bricksmagazine.co.uk/2021/01/13/inventing-y2k-why-gen-z-love-the-2000s-so-much/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Inventando el efecto 2000: Por qué la Generación Z ama tanto la década del 2000
+                </li>
+                </a>
+                <a href="https://blog.adobe.com/en/publish/2019/03/12/art-of-music-album-art-design-challenge" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    El arte de la música: Desafío de diseño de portadas de álbumes
+                </li>
+                </a>
+                <a href="https://www.creativeboom.com/insight/theres-no-such-thing-as-anti-brand-and-you-know-it/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    No existe tal cosa como una marca anti-marca (y tú lo sabes).
+                </li>
+                </a>
+                <a href="https://byhadi7.wordpress.com/2023/11/25/min-heejin-an-understanding-of-the-creative-process/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Min Heejin: Una comprensión del proceso creativo
+                </li>
+                </a>
+            </ul>
+            </div>
+            <!--Botón de der más Artículos-->
+            <a href="https://www.instagram.com/yosoymo?igsh=MTc2NHlzbGtsb2F1eg==" target="_blank" rel="noopener noreferrer">
+            <button id="verver" type="button" class="btn">
+                <p id="verTe">Ver más Artículos</p>
+                
+            </button>
+            </a>
+        </section>
+
+        
+        <!--Sección de testimonios-->
+        <section id="testimonios" class="testimonios seccion-clara">
+            <h2 class="seccion-titulo">Testimonios</h2>
+            <h3 id="proS" class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+            
+            <!-- Carrusel -->
+            <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!--Testimonio 1-->
+                <div class="carousel-item active">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./statics/media/img/jk.JPG" alt="Foto de jk">
+                    <p class="testimonio-texto">"Tu capacidad para fusionar la técnica editorial con una sensibilidad 
+                        artística tan auténtica es exactamente el nivel de excelencia que buscamos para elevar la narrativa visual de nuestros proyectos globales."</p>
+                    <div class="testimonio-info">
+                    <p class="cliente">Jung Kook</p>
+                    <p class="cargo">Gerente Creativo de BigHit Entreteintment</p>
+                    </div>
+                </div>
+                </div>
+                <!--Testimonio 2-->
+                <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./statics/media/img/the8.JPG" alt="Foto de Adriana">
+                    <p class="testimonio-texto">"Tu portafolio captura perfectamente la esencia de la inspiración visual; tienes un instinto natural 
+                        para curar estéticas que no solo atraen el ojo, sino que conectan emocionalmente con la audiencia a escala global."</p>
+                    <div class="testimonio-info">
+                    <p class="cliente">Bill Ready</p>
+                    <p class="cargo">CEO de Pinterest Global</p> 
+                    </div>
+                </div>
+                </div>
+                <!--Testimonio 3-->
+                <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./statics/media/img/beli.JPG" alt="Foto de Diego">
+                    <p class="testimonio-texto">"Es refrescante ver a una diseñadora que domina la técnica digital sin perder la calidez del trazo manual; tu 
+                        capacidad para estructurar información compleja en formatos editoriales limpios es un activo invaluable para cualquier equipo de producto."</p>
+                    <div class="testimonio-info">
+                    <p class="cliente">Abigail Hart Gray</p>
+                    <p class="cargo">UX Senior Director en Google</p>
+                    </div>
+                </div>
+                </div>
+            <!--Botones del Carrusel-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            </div>
+            </section>
+
+            
+            <!--Contacto-->
+            <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+            <div class="container text-center d-flex justify-content-evenly rectangulo">
+                <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    ¡Creemos juntxs!
+                </div>
+                <div class="col-12 col-md-4 subCat descripcion">
+
+                    Transformemos conceptos en piezas visuales de alto impacto. ¿Hablamos de tu próximo proyecto?
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="mailto:20mo00mo@gmail.com" target="_blank">
+                    <button type="button">
+                        Contacto
+                        <i class="bi bi-envelope-check"></i>
+                    </button>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+            </section>
+
+            
+            <!--Pie de página (Footer)-->
+            <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+            <img class="footer-logo" src="./statics/media/logo.svg" alt="Logo del portafolio">
+            <p class="footer-texto text-center">En constante evolución visual: cada proyecto es una oportunidad para aprender. Se parte de mi proceso creativo.</p>
+            <!--Redes Sociales-->
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <!--Twitter-->
+            <a href="https://x.com/yosoy_mo?s=21" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <!--GitHub-->
+            <a href="https://github.com/moolfany" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <!--LinkedIn-->
+            <a href="https://pin.it/6sasLuuVm" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-pinterest"></i>
+            </a>
+            <!--Instagram-->
+            <a href="https://www.instagram.com/yosoymo?igsh=MTc2NHlzbGtsb2F1eg==" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <!--Correo-->
+            <a href="mailto:20mo00mo@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+            </div>
+            
+            <div class="derechos-de-autor">Creado por Stephanie Morales (2026) &#169;</div>
+
+            </footer>
+        
+    <!--Bootstrap JS-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
